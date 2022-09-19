@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\anlefebvre\\OneDrive - SQLI\\Articles\\code-samples\\ShopUnitTests\\ShopUnitTests.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\anlefebvre\\OneDrive - SQLI\\Articles\\code-samples\\ShopUnitTests\\ShopUnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\anlefebvre\\OneDrive - SQLI\\Articles\\code-samples\\ShopUnitTests\\ShopUnitTests.csproj",
+        "projectName": "ShopUnitTests",
+        "projectPath": "c:\\Users\\anlefebvre\\OneDrive - SQLI\\Articles\\code-samples\\ShopUnitTests\\ShopUnitTests.csproj",
+        "packagesPath": "C:\\Users\\anlefebvre\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\anlefebvre\\OneDrive - SQLI\\Articles\\code-samples\\ShopUnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anlefebvre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sqli-paris.pkgs.visualstudio.com/e884e058-f7c5-4c18-bea2-08da9ea3d697/_packaging/LaSPA-ARGOS/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "c:\\Users\\anlefebvre\\OneDrive - SQLI\\Articles\\code-samples\\Shop\\Shop.csproj": {
+                "projectPath": "c:\\Users\\anlefebvre\\OneDrive - SQLI\\Articles\\code-samples\\Shop\\Shop.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\anlefebvre\\OneDrive - SQLI\\Articles\\code-samples\\Shop\\Shop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\anlefebvre\\OneDrive - SQLI\\Articles\\code-samples\\Shop\\Shop.csproj",
+        "projectName": "Shop",
+        "projectPath": "c:\\Users\\anlefebvre\\OneDrive - SQLI\\Articles\\code-samples\\Shop\\Shop.csproj",
+        "packagesPath": "C:\\Users\\anlefebvre\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\anlefebvre\\OneDrive - SQLI\\Articles\\code-samples\\Shop\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anlefebvre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sqli-paris.pkgs.visualstudio.com/e884e058-f7c5-4c18-bea2-08da9ea3d697/_packaging/LaSPA-ARGOS/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
